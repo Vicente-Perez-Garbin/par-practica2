@@ -8,6 +8,9 @@ public class Carrito {
     private int unidades;
     private double precioFinal;
 
+    public Carrito() {
+    }
+
     // Constructor
     public Carrito(int idCarrito, int idArticulo, String descripcion, int unidades, double precioFinal) {
         this.idCarrito = idCarrito;
